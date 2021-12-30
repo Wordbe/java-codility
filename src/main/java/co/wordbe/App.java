@@ -1,9 +1,16 @@
 package co.wordbe;
 
+import co.wordbe.lessons.prefixSums.MinAvgTwoSlice;
 import co.wordbe.lessons.sorting.MaxProductOfThree;
 
 public class App {
     public static void main( String[] args ) {
+        MinAvgTwoSlice minAvgTwoSlice = new MinAvgTwoSlice();
+        int answer = minAvgTwoSlice.solution(new int[]{4, 2, 2, 5, 1, 5, 8});
+        System.out.println("answer = " + answer);
+    }
+
+    private static void MaxProductOfThree() {
         MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
         int answer = maxProductOfThree.solution(new int[]{-3, 1, 2, -2, 5, 6});
         System.out.println("answer = " + answer);
