@@ -5,6 +5,10 @@ import co.wordbe.lessons.sorting.MaxProductOfThree;
 
 public class App {
     public static void main( String[] args ) {
+        minVagTwoSlice();
+    }
+
+    private static void minVagTwoSlice() {
         MinAvgTwoSlice minAvgTwoSlice = new MinAvgTwoSlice();
         int answer = minAvgTwoSlice.solution(new int[]{4, 2, 2, 5, 1, 5, 8});
         System.out.println("answer = " + answer);
